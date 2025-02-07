@@ -6,9 +6,10 @@ body {
     background-color: #f0f0f0; /* Фон по умолчанию */
     color: #333;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: hidden; /* Отключение горизонтальной прокрутки */
 }
 
 header {
@@ -28,10 +29,11 @@ h1 {
 nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 15px;
 }
 
@@ -75,9 +77,8 @@ footer {
     padding: 15px;
     background-color: #333;
     color: white;
-    position: absolute;
-    bottom: 0;
     width: 100%;
+    margin-top: auto; /* Для корректного расположения футера */
 }
 
 button {
