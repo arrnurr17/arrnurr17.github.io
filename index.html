@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <!-- Навигационное меню -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -32,19 +33,26 @@
                             <a class="nav-link" href="#contact">Контакты</a>
                         </li>
                     </ul>
+
+                    <!-- Форма поиска -->
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Поиск</button>
+                    </form>
                 </div>
             </div>
         </nav>
     </header>
 
+    <!-- Секция Главная -->
     <section id="home">
         <h2>Добро пожаловать!</h2>
         <p>Изучите современные интерьеры в стиле хай-тек, сочетающие минимализм, технологии и стиль.</p>
     </section>
     
-    <section id="gallery">
+    <!-- Карусель изображений -->
+    <section id="carousel-section">
         <h2>Галерея дизайнов</h2>
-        <!-- Вставляем карусель сюда -->
         <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -68,18 +76,22 @@
         </div>
     </section>
 
+    <!-- Секция О стиле -->
     <section id="about">
         <h2>О стиле Хай-Тек</h2>
         <p>Хай-тек — это стиль, который подчеркивает функциональность, современные материалы и технологии.</p>
     </section>
     
+    <!-- Секция Контакты -->
     <section id="contact">
         <h2>Контакты</h2>
         <p>Свяжитесь с нами для заказа индивидуального дизайна.</p>
     </section>
 
+    <!-- Подвал сайта -->
     <footer>
         <p>&copy; 2025 Дизайн квартир. Все права защищены.</p>
     </footer>
+
 </body>
 </html>
