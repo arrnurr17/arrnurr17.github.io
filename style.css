@@ -76,6 +76,7 @@ tr:hover {
         padding: 10px 12px;
     }
 }
+
 @media (max-width: 768px) {
     table {
         display: block;
@@ -83,22 +84,3 @@ tr:hover {
         white-space: nowrap;
     }
 }
-/* Ваши другие стили выше */
-
-button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    margin: 10px;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-/* Ваши другие стили ниже */
