@@ -33,6 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
         // Если индекс выходит за пределы массива, начинаем с первого изображения
         if (currentImageIndex >= backgroundImages.length) {
             currentImageIndex = 0;
-        }
-    });
+        }
+    });
 });
