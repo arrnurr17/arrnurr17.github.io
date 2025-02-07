@@ -1,28 +1,65 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VestaHome | Страница 2</title>
-    <link rel="stylesheet" href="style.css"> <!-- Подключаем тот же стиль -->
-    <script src="script.js" defer></script> <!-- Подключаем тот же скрипт -->
+    <meta name="description" content="Дополнительная информация о проекте и компании VestaHome.">
+    <meta name="keywords" content="VestaHome, дизайн, проект, интерьеры, стиль хай-тек">
+    <title>VestaHome | О проекте</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!-- Навигационное меню -->
     <header>
-        <h1>Страница 2</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="page2.html">Страница 2</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">VestaHome</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="page2.html">О проекте</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-    
+
+    <!-- Секция О проекте -->
     <section>
-        <h2>Информация о проекте</h2>
-        <p>Здесь будет дополнительная информация о компании или проекте, его целях, задачах и важности для пользователей.</p>
+        <h2>О проекте VestaHome</h2>
+        <p>VestaHome - это проект, направленный на создание уникальных интерьеров в стиле хай-тек. Мы предлагаем инновационные решения для жилых и коммерческих помещений, сочетающие минимализм и современные технологии.</p>
+        <h3>Наша миссия</h3>
+        <p>Мы стремимся создавать функциональные и стильные интерьеры, которые отвечают последним тенденциям в дизайне и технологии. Наши проекты помогают улучшить качество жизни и работы наших клиентов.</p>
+        <h3>Наши услуги</h3>
+        <ul>
+            <li>Проектирование интерьеров</li>
+            <li>Дизайн жилых и коммерческих помещений</li>
+            <li>Консультации по выбору материалов и мебели</li>
+            <li>Реализация проектов с учетом современных технологий</li>
+        </ul>
     </section>
-    
-    <button onclick="window.location.href='index.html'">Вернуться на главную</button>
+
+    <button onclick="window.location.href='index.html'" class="btn btn-primary">Вернуться на главную</button>
+
+    <!-- Подвал -->
+    <footer>
+        <p>&copy; 2025 VestaHome by Bulatov. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
 </body>
+
 </html>
